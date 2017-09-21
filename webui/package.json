@@ -1,0 +1,31 @@
+{
+  "name": "yummylaunch",
+  "version": "0.0.1",
+  "description": "is today launch delicious?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbambi/YummyLaunch.git"
+  },
+  "author": "liudezhi lina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbambi/YummyLaunch/issues"
+  },
+  "homepage": "https://github.com/fbambi/YummyLaunch#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^2.0.0-beta.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
+    "webpack": "^3.6.0"
+  }
+}

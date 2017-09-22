@@ -1,7 +1,7 @@
 {
-  "name": "yummylaunch",
+  "name": "yummylunch",
   "version": "0.0.1",
-  "description": "is today launch delicious?",
+  "description": "is today lunch delicious?",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --watch-poll",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fbambi/YummyLaunch.git"
+    "url": "git+https://github.com/fbambi/YummyLunch.git"
   },
-  "author": "liudezhi lina",
+  "author": "liudezhi, lina, zhuhao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fbambi/YummyLaunch/issues"
+    "url": "https://github.com/fbambi/YummyLunch/issues"
   },
-  "homepage": "https://github.com/fbambi/YummyLaunch#readme",
+  "homepage": "https://github.com/fbambi/YummyLunch#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^7.0.0-beta.0",

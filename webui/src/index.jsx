@@ -13,6 +13,10 @@ import App from './App.jsx';
 
 const store = createStore(reducer);
 
+if (module.hot) {
+  module.hot.accept();
+}
+
 
 const appDiv = document.createElement('div');
 appDiv.setAttribute('id', 'app')

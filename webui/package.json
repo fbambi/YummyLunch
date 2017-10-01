@@ -4,7 +4,7 @@
   "description": "is today lunch delicious?",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --watch-poll",
+    "start": "webpack-dev-server --watch-poll",
     "build": "cross-env NODE_ENV=production webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -42,6 +42,7 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2",
+    "webpack-hot-middleware": "^2.19.1",
     "webpack-merge": "^4.1.0"
   }
 }

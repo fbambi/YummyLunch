@@ -10,7 +10,10 @@ module.exports = {
     hot: true,
     hotOnly: true
   },
-  entry: './src/index.jsx',
+  entry: [
+    './src/index.jsx',
+    'webpack-hot-middleware/client'
+  ],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
